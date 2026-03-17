@@ -9,6 +9,10 @@ function Navbar() {
 		padding: "15px 30px",
 		fontFamily: "Georgia, serif",
 		position: "fixed",
+		backgroundColor: "transparent",
+		padding: "20px 30px",
+		fontFamily: "Georgia, serif",
+		position: "absolute",
 		top: "0",
 		left: "0",
 		width: "100%",
@@ -17,9 +21,12 @@ function Navbar() {
 
 	const mainLogoStyle = {
 		height: "125px",
+
 		height: "125px",
 		width: "auto",
 		borderRadius: "0px",
+		width: "auto",
+		borderRadius: "5px",
 	};
 
 	const navLinkStyle = {
