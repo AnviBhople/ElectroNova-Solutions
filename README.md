@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Electronova System 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Us
 
-## Available Scripts
+Electronova System is a leading organization dedicated to advancing **Robotics, Artificial Intelligence (AI), Internet of Things (IoT), STEM & STEAM Education**.
 
-In the project directory, you can run:
+We specialize in providing high-quality:
 
-### `npm start`
+- Robotics Kits  
+- Educational Training Solutions  
+- Lab Setup Services  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Our mission is to promote hands-on learning, innovation, and 21st-century skills among students and professionals.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+We collaborate with:
 
-### `npm test`
+- Private institutions  
+- Government schools  
+- Atal Tinkering Labs (ATLs)  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+to establish world-class innovation and learning labs that inspire creativity and problem-solving from an early stage.
 
-### `npm run build`
+Our programs combine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Practical training  
+- Project-based learning  
+- Internship opportunities  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This ensures learners gain real-world exposure to advanced technologies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## What We Do
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+At Electronova System, we design and deliver innovative learning solutions that bring technology and creativity together.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Our focus is on empowering:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Students  
+- Educators  
+- Institutions  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+through advanced educational tools, training programs, and infrastructure in the fields of:
 
-## Learn More
+- Robotics  
+- Artificial Intelligence (AI)  
+- Internet of Things (IoT)  
+- STEM & STEAM Education  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Why Choose Us
 
-### Code Splitting
+Electronova System stands out for its commitment to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Innovation  
+- Quality  
+- Hands-on learning  
 
-### Analyzing the Bundle Size
+We offer complete education solutions — from **lab setup to training and certification**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Our strengths include:
 
-### Making a Progressive Web App
+- Expert trainers  
+- Industry-driven curriculum  
+- Durable and high-quality learning kits  
+- Strong partnerships with private institutions, government schools, and ATLs  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+We ensure students gain practical, future-ready skills that prepare them for real-world challenges.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Our Services
 
-### Deployment
+1. Robotics Kits & Training  
+2. AI & IoT Education  
+3. STEM & STEAM Programs  
+4. Lab Setup Solutions  
+5. Internship & Skill Development  
+6. Technical Support & Maintenance  
+7. Workshops & Innovation Events  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Vision
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To empower the next generation with advanced technological skills and create innovation-driven learning environments across institutions.
+
+---
+
+## Contact
+
+For collaborations, partnerships, or inquiries, please reach out through our official communication channels.
+
+---
+
+**Electronova System — Engineering the Future of Learning.**
