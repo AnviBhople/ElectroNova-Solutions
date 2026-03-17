@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function Footer() {
 	const footerStyle = {
 		padding: "30px 40px",
-		// borderTop: "1px solid #ddd",
+
 		fontFamily: "Georgia, serif",
-		marginTop: "40px",
+		// marginTop: "40px",
 	};
 
 	const centerText = {

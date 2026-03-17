@@ -3,13 +3,20 @@
 	margin: 0;
 }
 
+/* body {
+	background-image: url("/src/components/images/background_img.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+} */
+
 body {
+	margin: 0;
 	background-image: url("/src/components/images/background_img.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-
 .electronova {
 	flex: 1;
 	display: flex;

@@ -1,5 +1,8 @@
 import React from "react";
-import mainImg1 from "./images/mainImg.png";
+import { Link } from "react-router-dom";
+import mainImg1 from "./images/mainImg1.png";
+import mainImg2 from "./images/mainImg2.png";
+import mainImg3 from "./images/mainImg3.png";
 
 function MainApp() {
 	const heroStyle = {
@@ -19,18 +22,21 @@ function MainApp() {
 	const headingStyle = {
 		fontSize: "52px",
 		marginBottom: "20px",
+		fontFamily: "Orbitron",
 	};
 
 	const subHeadingStyle = {
 		fontSize: "20px",
 		marginBottom: "20px",
 		color: "#cbd5f5",
+		fontFamily: "Inter",
 	};
 
 	const paragraphStyle = {
 		fontSize: "16px",
 		lineHeight: "1.6",
 		color: "#94a3b8",
+		fontFamily: "Inter",
 	};
 
 	const buttonContainer = {
@@ -41,6 +47,8 @@ function MainApp() {
 
 	const primaryBtn = {
 		background: "#3b82f6",
+		fontFamily: "Inter",
+
 		border: "none",
 		padding: "12px 20px",
 		borderRadius: "8px",
@@ -51,6 +59,8 @@ function MainApp() {
 
 	const secondaryBtn = {
 		background: "transparent",
+		fontFamily: "Inter",
+
 		border: "1px solid #3b82f6",
 		padding: "12px 20px",
 		borderRadius: "8px",
@@ -61,6 +71,7 @@ function MainApp() {
 	const rightStyle = {
 		display: "flex",
 		justifyContent: "center",
+		marginTop: "20px",
 	};
 
 	const imageWrapper = {
@@ -69,14 +80,22 @@ function MainApp() {
 		borderRadius: "20px",
 		backdropFilter: "blur(10px)",
 	};
-
+	const secondaryHeads = {
+		fontFamily: "Orbitron",
+	};
 	const imageStyle = {
 		width: "400px",
 		maxWidth: "100%",
 		borderRadius: "12px",
+		marginBottom: "50px",
 		filter: "drop-shadow(0 20px 40px rgba(0,0,0,0.6))",
 	};
 
+	const para = {
+		fontSize: "18px",
+		wordSpacing: "5px",
+		fontFamily: "Inter",
+	};
 	return (
 		<div style={heroStyle}>
 			<div style={leftStyle}>
@@ -92,16 +111,51 @@ function MainApp() {
 				</p>
 
 				<div style={buttonContainer}>
-					<button style={primaryBtn}>Explore Products</button>
-					<button style={secondaryBtn}>Learn More</button>
+					<Link to="/products">
+						<button style={primaryBtn}>Explore Products</button>
+					</Link>
+					<Link to="/about">
+						<button style={secondaryBtn}>Learn More</button>{" "}
+					</Link>
 				</div>
 			</div>
-
 			<div style={rightStyle}>
 				<div style={imageWrapper}>
 					<img src={mainImg1} alt="Electronics visual" style={imageStyle} />
 				</div>
 			</div>
+			<div style={rightStyle}>
+				<img src={mainImg2} alt="" style={imageStyle} />
+			</div>
+			<div style={leftStyle}>
+				<h1 style={secondaryHeads}>What We Do</h1>
+				<br />
+				<p style={para}>
+					At Electronova System, we design and deliver innovative learning
+					solutions that bring technology and creativity together. Our focus is
+					on empowering students, educators, and institutions through advanced
+					educational tools, training, and infrastructure in the fields of
+					Robotics, AI, IoT, STEM & STEAM Education
+				</p>
+			</div>
+			<div style={rightStyle}>
+				<img src={mainImg3} alt="" style={imageStyle} />
+			</div>
+			<div style={leftStyle}>
+				<h1 style={secondaryHeads}>Why Us?</h1>
+				<br />
+				<p style={para}>
+					lectronova System stands out for its commitment to innovation,
+					quality, and handson learning. We offer complete Robotics, AI, IoT,
+					STEM & STEAM education solutions — from lab setup to training and
+					certification. With expert trainers, industry-driven curriculum, and
+					durable learning kits, we ensure students gain practical, future-ready
+					skills. Our strong partnerships with private, government, and Atal
+					Tinkering Labs reflect our reliability and excellence in delivering
+					impactful education.
+				</p>
+			</div>
+			//services //testimonials ask them for //mobile responsiveness
 		</div>
 	);
 }

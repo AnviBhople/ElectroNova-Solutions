@@ -1,3 +1,105 @@
+// import React from "react";
+// import { Link } from "react-router-dom";
+// import logo from "./images/ElectroNova_logo_trial.png";
+// import bgImage from "./images/background_img.jpg";
+
+// function Navbar() {
+// 	const navbarStyle = {
+// 		backgroundImage: `url(${bgImage})`,
+// 		backgroundSize: "cover",
+// 		backgroundPosition: "center",
+// 		backgroundRepeat: "no-repeat",
+// 		position: "fixed",
+// 		top: 0,
+// 		left: 0,
+// 		width: "100%",
+// 		zIndex: 1000,
+// 		display: "flex",
+// 		alignItems: "center",
+// 		justifyContent: "space-between",
+// 		padding: "10px 40px", // reduced height
+// 		fontFamily: "Georgia, serif",
+// 	};
+
+// 	const leftSection = {
+// 		display: "flex",
+// 		alignItems: "center",
+// 		gap: "30px",
+// 	};
+
+// 	const logoStyle = {
+// 		height: "100px", // 🔥 reduced from 125px
+// 		width: "auto",
+// 		borderRadius: "5px",
+// 	};
+
+// 	const linkContainer = {
+// 		display: "flex",
+// 		gap: "25px",
+// 	};
+
+// 	const linkStyle = {
+// 		fontSize: "18px",
+// 		color: "#fff",
+// 		textDecoration: "none",
+// 	};
+
+// 	const iconContainer = {
+// 		display: "flex",
+// 		gap: "20px",
+// 	};
+
+// 	const iconStyle = {
+// 		fontSize: "20px",
+// 		color: "#fff",
+// 		cursor: "pointer",
+// 	};
+
+// 	return (
+// 		<nav style={navbarStyle}>
+// 			{/* Left side */}
+// 			<div style={leftSection}>
+// 				<Link to="/">
+// 					<img src={logo} alt="Logo" style={logoStyle} />
+// 				</Link>
+
+// 				<div style={linkContainer}>
+// 					<Link to="/about" style={linkStyle}>
+// 						About
+// 					</Link>
+// 					<Link to="/products" style={linkStyle}>
+// 						Products
+// 					</Link>
+// 					<Link to="/contact-us" style={linkStyle}>
+// 						Contact
+// 					</Link>
+// 					<Link to="/our-achievements" style={linkStyle}>
+// 						Achievements
+// 					</Link>
+// 					<Link to="/training-kits" style={linkStyle}>
+// 						Training Kits
+// 					</Link>
+// 				</div>
+// 			</div>
+
+// 			{/* Right side */}
+// 			<div style={iconContainer}>
+// 				<a href="mailto:electronovasystemspvtltd@gmail.com">
+// 					<i className="fa-regular fa-envelope" style={iconStyle}></i>
+// 				</a>
+// 				<a
+// 					href="https://www.linkedin.com/company/electronova-systems-pvt-ltd"
+// 					target="_blank"
+// 					rel="noreferrer">
+// 					<i className="fa-brands fa-linkedin" style={iconStyle}></i>
+// 				</a>
+// 			</div>
+// 		</nav>
+// 	);
+// }
+
+// export default Navbar;
+
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./images/ElectroNova_logo_trial.png";
@@ -6,6 +108,9 @@ function Navbar() {
 	const navbarStyle = {
 		// backgroundColor: "#3C4858",
 		backgroundColor: "transparent",
+		backgroundSize: "cover",
+		backgroundPosition: "center",
+		backgroundRepeat: "no-repeat",
 		padding: "15px 30px",
 		fontFamily: "Georgia, serif",
 		position: "fixed",
@@ -21,7 +126,6 @@ function Navbar() {
 
 	const mainLogoStyle = {
 		height: "125px",
-
 		height: "125px",
 		width: "auto",
 		borderRadius: "0px",
