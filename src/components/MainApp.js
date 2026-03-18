@@ -92,7 +92,7 @@ function MainApp() {
 								<button style={primaryBtn}>Explore Products</button>
 							</Link>
 
-							<Link to="/about">
+							<Link to="/about-us">
 								<button style={secondaryBtn}>Learn More</button>
 							</Link>
 						</div>

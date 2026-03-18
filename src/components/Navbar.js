@@ -55,7 +55,7 @@ function Navbar() {
 				<div className="collapse navbar-collapse" id="navbarContent">
 					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 						<li className="nav-item">
-							<Link to="/about" style={navLinkStyle} className="nav-link">
+							<Link to="/about-us" style={navLinkStyle} className="nav-link">
 								About
 							</Link>
 						</li>
@@ -87,6 +87,15 @@ function Navbar() {
 								style={navLinkStyle}
 								className="nav-link">
 								Training Kits
+							</Link>
+						</li>
+
+						<li className="nav-item">
+							<Link
+								to="/our-services"
+								style={navLinkStyle}
+								className="nav-link">
+								Services
 							</Link>
 						</li>
 					</ul>
