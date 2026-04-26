@@ -68,6 +68,7 @@ function MainApp() {
 		borderRadius: "20px",
 		backdropFilter: "blur(10px)",
 		display: "inline-block",
+		marginTop: "20px",
 	};
 
 	return (
