@@ -18,6 +18,7 @@ function MainApp() {
 		fontSize: "52px",
 		marginBottom: "20px",
 		fontFamily: "Orbitron",
+		fontWeight: "bold",
 	};
 
 	const subHeadingStyle = {
@@ -48,7 +49,7 @@ function MainApp() {
 		borderRadius: "8px",
 		color: "white",
 		cursor: "pointer",
-		fontWeight: "500",
+		fontWeight: "bold",
 		fontFamily: "Inter",
 	};
 
@@ -69,6 +70,22 @@ function MainApp() {
 		backdropFilter: "blur(10px)",
 		display: "inline-block",
 		marginTop: "20px",
+	};
+
+	const baseCardStyle = {
+		backgroundColor: "#111827",
+		borderRadius: "20px",
+		border: "2px solid #dde5f0",
+		transition: "all 0.4s ease",
+		cursor: "default",
+		overflow: "hidden",
+	};
+
+	const quoteStyle = {
+		color: "#fff",
+		fontStyle: "italic",
+		lineHeight: "1.6",
+		fontSize: "0.95rem",
 	};
 
 	return (
@@ -152,6 +169,169 @@ function MainApp() {
 						</div>
 					</div>
 				</div>
+				<br />
+				<br />
+				<br />
+				<section
+					className="py-5"
+					style={{
+						backgroundColor: "#101e45",
+						color: "#f9fafb",
+						borderRadius: "20px",
+					}}>
+					<div className="container">
+						<div className="row mb-5 text-center">
+							<div className="col-12">
+								<h2
+									style={{
+										fontFamily: "Orbitron",
+										letterSpacing: "4px",
+										fontWeight: "bold",
+									}}>
+									OUR LEADERSHIP
+								</h2>
+							</div>
+						</div>
+
+						<div className="row g-4">
+							<div className="col-12 col-lg-4">
+								<div
+									className="p-4 h-100 shadow-lg"
+									style={baseCardStyle}
+									onMouseEnter={(e) => {
+										e.currentTarget.style.transform = "translateY(-10px)";
+										e.currentTarget.style.borderColor = "#2a74ec";
+										e.currentTarget.style.boxShadow =
+											"0 10px 40px rgba(238, 241, 247, 0.7)";
+									}}
+									onMouseLeave={(e) => {
+										e.currentTarget.style.transform = "translateY(0)";
+										e.currentTarget.style.borderColor = "#dde5f0";
+										e.currentTarget.style.boxShadow = "none";
+									}}>
+									<div className="mb-3"></div>
+									<p style={quoteStyle}>
+										"Working as the Head Accountant at Electronova Systems has
+										been a really valuable experience for me. I’ve had the
+										opportunity to manage financial operations, which has helped
+										me grow stronger in accounting practices. The environment
+										encourages learning and technical growth."
+									</p>
+									<div className="mt-4 pt-3 border-top border-secondary">
+										<h5 className="mb-0 text-white">Komal Ashokrao Sune</h5>
+										<small className="text-primary text-uppercase fw-bold">
+											Head Accountant
+										</small>
+									</div>
+								</div>
+							</div>
+
+							<div className="col-12 col-lg-4">
+								<div
+									className="p-4 h-100"
+									style={{
+										...baseCardStyle,
+										border: "2px solid #3b82f6",
+										background: "linear-gradient(145deg, #111827, #1e293b)",
+									}}
+									onMouseEnter={(e) => {
+										e.currentTarget.style.transform = "scale(1.03)";
+										e.currentTarget.style.boxShadow =
+											"0 10px 40px rgba(238, 241, 247, 0.2)";
+									}}
+									onMouseLeave={(e) => {
+										e.currentTarget.style.transform = "scale(1)";
+										e.currentTarget.style.boxShadow = "none";
+									}}>
+									<h5
+										className="mb-0"
+										style={{ color: "#60a5fa", fontSize: "1.25rem" }}>
+										Arjun Panditrao Mahore
+									</h5>
+									<br />
+									<div className="mb-3">
+										<small className="badge bg-primary text-uppercase">
+											CEO & Founder
+										</small>
+									</div>
+
+									<p
+										style={{
+											...quoteStyle,
+											color: "#fff",
+											fontSize: "1rem",
+										}}>
+										Leading Electronova has been a purpose-driven journey
+										focused on innovation. With two patents and mentorship
+										experience at IIT Kanpur, I focus on designing prototypes
+										and inspiring the next generation of engineers.
+									</p>
+									<br />
+									<div className="d-flex flex-wrap gap-2 mt-3">
+										<span
+											className="badge border border-primary bg-primary text-center text-white"
+											style={{ fontSize: "0.8rem" }}>
+											Patent Holder
+										</span>
+										<span
+											className="badge border border-primary bg-primary text-center text-white"
+											style={{ fontSize: "0.8rem" }}>
+											State Athlete
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div className="col-12 col-lg-4">
+								<div
+									className="p-4 h-100 shadow-lg"
+									style={baseCardStyle}
+									onMouseEnter={(e) => {
+										e.currentTarget.style.transform = "translateY(-10px)";
+										e.currentTarget.style.borderColor = "#3b82f6";
+										e.currentTarget.style.boxShadow =
+											"0 10px 40px rgba(238, 241, 247, 0.7)";
+									}}
+									onMouseLeave={(e) => {
+										e.currentTarget.style.transform = "translateY(0)";
+										e.currentTarget.style.borderColor = "#dde5f0";
+										e.currentTarget.style.boxShadow = "none";
+									}}>
+									<h5 className="mb-0 text-white">Shreyash Gawande</h5>
+									<small className="text-secondary text-uppercase fw-bold">
+										Co-founder & Director
+									</small>
+									<p
+										className="mt-3"
+										style={{
+											...quoteStyle,
+											color: "#fff",
+											fontSize: "1rem",
+										}}>
+										Expert in Embedded Systems and IoT. Having reached 7,000+
+										students through 150+ workshops, my mission is making
+										technology practical, accessible, and impactful for
+										innovators.
+									</p>
+									<div className="mt-4 pt-3 border-top border-secondary">
+										<div
+											className="text-primary small fw-bold"
+											style={{ fontSize: "1rem" }}>
+											7,000+ Students Mentored
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
+					<div className="d-flex justify-content-center">
+						<Link to="/team">
+							<button style={primaryBtn}>Meet our Team</button>
+						</Link>
+					</div>
+				</section>
 			</div>
 		</div>
 	);

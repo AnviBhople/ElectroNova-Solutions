@@ -10,6 +10,7 @@ import About from "./components/About";
 import Achievements from "./components/Achievements";
 import Services from "./components/Services";
 import Training from "./components/Training";
+import Team from "./components/Team";
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 				<Route path="/our-achievements" element={<Achievements />} />
 				<Route path="/our-services" element={<Services />} />
 				<Route path="/training-kits" element={<Training />} />
+				<Route path="/team" element={<Team />} />
 			</Routes>
 			<Footer />
 		</Router>

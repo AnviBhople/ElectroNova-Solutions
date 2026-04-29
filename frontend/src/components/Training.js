@@ -146,12 +146,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={robowork1}
 								alt="Robotics"
@@ -170,12 +173,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={robowork2}
 								alt="AI & IoT"
@@ -194,12 +200,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={robowork3}
 								alt="STEM"
@@ -228,12 +237,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={threedwork1}
 								alt="3d workshop"
@@ -252,12 +264,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={threedwork2}
 								alt="3D Workshop"
@@ -276,12 +291,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={threedwork3}
 								alt="Robotics"
@@ -309,12 +327,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={androidwork1}
 								alt="android dev workshop"
@@ -333,12 +354,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={androidwork2}
 								alt="android dev Workshop"
@@ -357,12 +381,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={androidwork3}
 								alt="android dev workshop"
@@ -391,12 +418,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={aeromodel_work1}
 								alt="aeromodelling workshop"
@@ -415,12 +445,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={aeromodel_work2}
 								alt="aeromodelling Workshop"
@@ -439,12 +472,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-4 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={aeromodel_work3}
 								alt="aeromodelling workshop"
@@ -474,12 +510,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-3 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={drone1}
 								alt="mini drone workshop"
@@ -498,12 +537,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-3 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={drone2}
 								alt="Mini drone Workshop"
@@ -522,12 +564,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-3 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.05)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={drone3}
 								alt="mini drone workshop"
@@ -546,12 +591,15 @@ function Training() {
 					<div className="col-12 col-md-6 col-lg-3 mb-4">
 						<div
 							style={cardStyle}
-							onMouseEnter={(e) =>
-								(e.currentTarget.style.transform = "scale(1.07)")
-							}
-							onMouseLeave={(e) =>
-								(e.currentTarget.style.transform = "scale(1)")
-							}>
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<img
 								src={drone4}
 								alt="mini drone workshop"
