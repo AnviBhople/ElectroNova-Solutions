@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import serviceImg1 from "./images/serviceImg1.png";
 import serviceImg2 from "./images/serviceImg2.png";
 import serviceImg3 from "./images/serviceImg3.png";
+import serviceImg4 from "./images/serviceImg4.png";
+import serviceImg5 from "./images/serviceImg5.png";
+import serviceImg6 from "./images/serviceImg6.png";
+import serviceImg7 from "./images/serviceImg7.png";
 
 function Services() {
 	const [openIndex, setOpenIndex] = useState(null);
@@ -32,6 +36,7 @@ function Services() {
 		lineHeight: "1.6",
 		color: "#bcc4cf",
 		fontFamily: "Inter",
+		textAlign: "justify",
 	};
 
 	const faqStyle = {
@@ -64,19 +69,19 @@ function Services() {
 		},
 		{
 			title: "Lab Setup Solutions",
-			img: "URL_FOR_LABS",
+			img: serviceImg4,
 		},
 		{
 			title: "Internship & Skill Development",
-			img: "URL_FOR_INTERNSHIP",
+			img: serviceImg5,
 		},
 		{
 			title: "Technical Support & Maintenance",
-			img: "URL_FOR_SUPPORT",
+			img: serviceImg6,
 		},
 		{
 			title: "Workshops & Innovation Events",
-			img: "URL_FOR_WORKSHOPS",
+			img: serviceImg7,
 		},
 	];
 
@@ -114,8 +119,23 @@ function Services() {
 					<h1 style={{ fontFamily: "Orbitron", marginTop: "40px" }}>
 						Services We Provide
 					</h1>
+					<p
+						style={{
+							fontWeight: "normal",
+							fontSize: "20px",
+							fontFamily: "Inter",
+						}}>
+						Transforming ideas into innovation through technology-driven
+						learning.
+					</p>
+					<br />
 					<p style={para}>
-						Empowering innovation through robotics, AI and hands-on learning.
+						Empowering innovation through robotics, AI, and hands-on learning
+						experiences designed to inspire creativity, strengthen
+						problem-solving abilities, and equip learners with future-ready
+						technical skills. From foundational concepts to advanced
+						applications, our programs encourage practical exploration and
+						real-world innovation.{" "}
 					</p>
 				</div>
 				<div className="row mb-5">
@@ -126,7 +146,7 @@ function Services() {
 								onMouseEnter={(e) => {
 									e.currentTarget.style.transform = "scale(1.05)";
 									e.currentTarget.style.boxShadow =
-										"0 10px 30px rgba(0,0,0,0.3)";
+										"0 10px 30px rgb(243, 239, 239)";
 								}}
 								onMouseLeave={(e) => {
 									e.currentTarget.style.transform = "scale(1)";
@@ -136,8 +156,13 @@ function Services() {
 									src={service.img}
 									alt={service.title}
 									className="img-fluid mb-3"
-									style={{ borderRadius: "10px" }}
+									style={{
+										borderRadius: "10px",
+										height: "250px",
+										width: "400px",
+									}}
 								/>
+								<br />
 								<h5 style={{ fontFamily: "Inter", fontSize: "x-large" }}>
 									{service.title}
 								</h5>
