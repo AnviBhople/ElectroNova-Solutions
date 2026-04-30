@@ -17,6 +17,7 @@ function Navbar() {
 	const logoStyle = {
 		height: "110px",
 		width: "auto",
+		borderRadius: "10px",
 	};
 
 	const navLinkStyle = {

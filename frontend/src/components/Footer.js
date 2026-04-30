@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
+import bgImg from "./images/background_img.jpg";
 
 function Footer() {
 	const footerStyle = {
 		padding: "40px 20px",
 		fontFamily: "Georgia, serif",
 		color: "#fff",
+		background: `radial-gradient(circle at top right, rgba(30,58,138,0.9), rgba(2,6,23,0.95)), url(${bgImg})`,
 	};
 
 	const centerText = {

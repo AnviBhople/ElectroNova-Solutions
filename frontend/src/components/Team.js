@@ -11,6 +11,7 @@ import suhaniImg from "./images/suhaniImg.png";
 import skordeImg from "./images/skordeImg.png";
 import akshayImg from "./images/akshayImg.png";
 import roshanImg from "./images/roshanImg.png";
+import teamImg from "./images/teamImg.png";
 function Team() {
 	const sectionStyle = {
 		background: `radial-gradient(circle at top right, rgba(30,58,138,0.9), rgba(2,6,23,0.95)), url(${bgImg})`,
@@ -52,6 +53,30 @@ function Team() {
 		{ name: "AKSHAY THAKARE", role: "MARKETING CO-ORDINATOR", img: akshayImg },
 		{ name: "ROSHAN JUMALE", role: "SOCIAL MEDIA SPECIALIST", img: roshanImg },
 	];
+
+	const imgsectionStyle = {
+		background: `radial-gradient(circle at top right, rgba(30,58,138,0.9), rgba(2,6,23,0.95)), url(${bgImg})`,
+		backgroundSize: "cover",
+		backgroundPosition: "center",
+		backgroundRepeat: "no-repeat",
+		color: "white",
+		display: "flex",
+		justifyContent: "center",
+		alignItems: "center",
+		padding: "40px 0",
+		width: "100%",
+		overflow: "hidden",
+	};
+	const teamHeroImgStyle = {
+		maxWidth: "100%",
+		width: "800px",
+		height: "auto",
+		borderRadius: "20px",
+		boxShadow:
+			"0 20px 40px rgba(237, 229, 229, 0.4), 0 0 20px rgba(59, 130, 246, 0.6)",
+		border: "1px solid rgba(255, 255, 255, 0.6)",
+		filter: "drop-shadow(0px 10px 10px rgba(0,0,0,0.6))",
+	};
 
 	return (
 		<div style={sectionStyle}>
@@ -143,6 +168,9 @@ function Team() {
 						</div>
 					))}
 				</div>
+			</div>
+			<div style={imgsectionStyle}>
+				<img src={teamImg} style={teamHeroImgStyle} alt="Team" />
 			</div>
 		</div>
 	);
