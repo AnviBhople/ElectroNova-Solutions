@@ -3,7 +3,14 @@ import bgImg from "./images/background_img.jpg";
 import arjunImg from "./images/arjunImg.png";
 import shreyashImg from "./images/shreyashImg.png";
 import mohImg from "./images/mohImg.png";
-
+import komalhr from "./images/komalhr.png";
+import komalacc from "./images/komalaccImg.png";
+import yuvrajImg from "./images/yuvrajImg.png";
+import sanskarImg from "./images/sanskarImg.png";
+import suhaniImg from "./images/suhaniImg.png";
+import skordeImg from "./images/skordeImg.png";
+import akshayImg from "./images/akshayImg.png";
+import roshanImg from "./images/roshanImg.png";
 function Team() {
 	const sectionStyle = {
 		background: `radial-gradient(circle at top right, rgba(30,58,138,0.9), rgba(2,6,23,0.95)), url(${bgImg})`,
@@ -34,6 +41,17 @@ function Team() {
 		border: "3px solid #3b82f6",
 		boxShadow: "0 0 20px rgba(59, 130, 246, 0.5)",
 	};
+
+	const teamMembers = [
+		{ name: "KOMAL AUJEKAR", role: "HR MANAGER", img: komalhr },
+		{ name: "KOMAL SUNE", role: "ACCOUNTANT HEAD", img: komalacc },
+		{ name: "YUVRAJ DESHMUKH", role: "R & D HEAD", img: yuvrajImg },
+		{ name: "SANSKAR WANVE", role: "GRAPHIC DESIGNER", img: sanskarImg },
+		{ name: "SUHANI AUJEKAR", role: "HARDWARE TESTING", img: suhaniImg },
+		{ name: "SHREYASH KORDE", role: "EMBEDDED DEVELOPER", img: skordeImg },
+		{ name: "AKSHAY THAKARE", role: "MARKETING CO-ORDINATOR", img: akshayImg },
+		{ name: "ROSHAN JUMALE", role: "SOCIAL MEDIA SPECIALIST", img: roshanImg },
+	];
 
 	return (
 		<div style={sectionStyle}>
@@ -99,21 +117,18 @@ function Team() {
 				</div>
 
 				<div className="row g-3 justify-content-center">
-					{[
-						{ name: "KOMAL AUJEKAR", role: "HR MANAGER" },
-						{ name: "KOMAL SUNE", role: "ACCOUNTANT HEAD" },
-						{ name: "YUVRAJ DESHMUKH", role: "R & D HEAD" },
-						{ name: "SANSKAR WANVE", role: "GRAPHIC DESIGNER" },
-						{ name: "SUHANI AUJEKAR", role: "HARDWARE TESTING" },
-						{ name: "SHREYASH KORDE", role: "EMBEDDED DEVELOPER" },
-						{ name: "AKSHAY THAKARE", role: "MARKETING CO-ORDINATOR" },
-						{ name: "ROSHAN JUMALE", role: "SOCIAL MEDIA SPECIALIST" },
-					].map((member, index) => (
+					{teamMembers.map((member, index) => (
 						<div className="col-6 col-md-4 col-lg-3" key={index}>
 							<div style={{ ...cardStyle, padding: "15px" }}>
-								<div
+								{/* <div
 									style={{ ...imgStyle, width: "100px", height: "100px" }}
-									className="mx-auto bg-secondary"></div>
+									className="mx-auto bg-secondary"></div> */}
+								<img
+									src={member.img}
+									alt={member.name}
+									style={{ ...imgStyle, width: "100px", height: "100px" }}
+									className="mx-auto bg-secondary"
+								/>
 								<h6
 									style={{ fontFamily: "Orbitron", fontSize: "0.9rem" }}
 									className="mb-1">

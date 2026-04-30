@@ -75,7 +75,17 @@ function Contact() {
 
 				<div className="row mb-5">
 					<div className="col-12 col-md-6 mb-4">
-						<div style={cardStyle}>
+						<div
+							style={cardStyle}
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<h3 style={{ fontFamily: "Orbitron" }}>Get In Touch</h3>
 							<br />
 							<p>📞 +91 7821826676</p>
@@ -102,7 +112,17 @@ function Contact() {
 					</div>
 
 					<div className="col-12 col-md-6 mb-4">
-						<div style={cardStyle}>
+						<div
+							style={cardStyle}
+							onMouseEnter={(e) => {
+								e.currentTarget.style.transform = "scale(1.05)";
+								e.currentTarget.style.boxShadow =
+									"0 10px 30px rgb(243, 239, 239)";
+							}}
+							onMouseLeave={(e) => {
+								e.currentTarget.style.transform = "scale(1)";
+								e.currentTarget.style.boxShadow = "none";
+							}}>
 							<h3 style={{ fontFamily: "Orbitron" }}>Our Address</h3>
 							<br />
 							<p style={addStyle}>
