@@ -33,6 +33,7 @@ function About() {
 	const heroStyle = {
 		textAlign: "center",
 		padding: "80px 20px",
+		fontFamily: "Orbitron",
 	};
 
 	const splitStyle = {
